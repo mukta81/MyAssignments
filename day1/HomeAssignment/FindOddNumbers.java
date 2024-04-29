@@ -1,5 +1,5 @@
 package week1.day1.HomeAssignment;
-
+//find all odd numbers until a number
 public class FindOddNumbers {
 
 	public static void main(String[] args) {
