@@ -1,10 +1,10 @@
-Feature: Login functionality of Leaftaps Application
+Feature: Delete Lead functionality of Leaftaps Application
 
 #Background:
 #Given Launch the Browser
 #And Load the URL
 
-Scenario Outline: Create Lead with multiple data
+Scenario Outline: Delete Lead with multiple data
 And Enter Username as 'Demosalesmanager' and Password as 'crmsfa'
 When Click on Login button
 Then Home Page should be displayed
