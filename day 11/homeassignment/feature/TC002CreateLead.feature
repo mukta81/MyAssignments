@@ -1,4 +1,4 @@
-Feature: Login functionality of Leaftaps Application
+Feature: Create Lead functionality of Leaftaps Application
 
 #Background:
 #Given Launch the Browser
