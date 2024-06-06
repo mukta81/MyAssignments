@@ -52,7 +52,7 @@ public class EditOpp extends BaseClass{
 
 
 		driver.findElement(By.xpath("//button[@name='SaveEdit']")).click();
-		
+		Thread.sleep(2000);
 		//validate
 		String strValidate=driver.findElement(By.xpath("//table[@aria-label='Recently Viewed']/tbody/tr[1]/td[5]")).getText();
 		//System.out.println("value"+strValidate);
