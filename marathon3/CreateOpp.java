@@ -28,8 +28,11 @@ public class CreateOpp extends BaseClass {
 		driver.findElement(By.xpath("//span[@title='Needs Analysis']")).click();
 		driver.findElement(By.xpath("//button[@name='SaveEdit']")).click();
 		//System.out.println(driver.findElement(By.xpath("(//slot[@name='secondaryFields']/records-highlights-details-item[3]/div/p)[2]")).getText());
-		WebElement element = driver.findElement(By.xpath("(//slot[@name='secondaryFields']/records-highlights-details-item[3]/div/p)[2]"));
-		if (element.getText().contains("75,000")) {
+		Thread.sleep(2000);
+		WebElement element = driver.findElement(By.xpath("(//slot[@name='primaryField']/lightning-formatted-text)"));
+		
+		System.out.println(element.getText());
+		if (element.getText().contains("Mukta")) {
 		    System.out.println("Opportunity Created Successfully");
 		}
 		else
